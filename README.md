@@ -1,2 +1,3 @@
-##|newsworthy|
-#an app for browsing the news
+## |newsworthy|
+
+# an app for browsing the news
