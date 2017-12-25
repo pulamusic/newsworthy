@@ -49,6 +49,11 @@ h3 {
   padding: 5px;
 }
 
+#subTitle {
+  text-align: center;
+  padding: 5px;
+}
+
 p {
   font-family: Source Sans Pro;
   font-size: 18px;
