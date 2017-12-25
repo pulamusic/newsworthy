@@ -16,7 +16,7 @@ const reutersUrl = 'https://newsapi.org/v2/top-headlines?sources=reuters&apiKey=
 async function getNews(url) {
   let response = await fetch(url);
   let jsonResponse = await response.json();
-  let articlesArray = await jsonResponse.articles.slice(0, 5);
+  let articlesArray = await jsonResponse.articles.slice(0, 10);
   return articlesArray;
 }
 
